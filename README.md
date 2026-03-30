@@ -2,7 +2,7 @@
 
 **How To Run:**
 
-3. Create Virtual Environment (Recommended)
+1. Create Virtual Environment (Recommended)
 ```
 python -m venv venv
 ```
@@ -16,7 +16,7 @@ Mac/Linux:
 ```
 source venv/bin/activate
 ```
-4. Install Dependencies
+2. Install Dependencies
 
 There is a requirements.txt file in the repo.
 ```
@@ -24,7 +24,7 @@ pip install -r requirements.txt
 ```
 This installs all required libraries (Flask, requests, etc.).
 
-5. Run the Project
+3. Run the Project
 
 The repo has:
 ```
@@ -39,7 +39,7 @@ If that doesn’t work:
 ```
 python app2.py
 ```
-6. Open in Browser
+4. Open in Browser
 
 After running, you’ll see something like:
 ```
