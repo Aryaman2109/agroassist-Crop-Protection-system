@@ -1,5 +1,55 @@
 # Agroassist:Crop-Protection-system
 
+**How To Run:**
+
+3. Create Virtual Environment (Recommended)
+```
+python -m venv venv
+```
+Activate it:
+
+Windows:
+```
+venv\Scripts\activate
+```
+Mac/Linux:
+```
+source venv/bin/activate
+```
+4. Install Dependencies
+
+There is a requirements.txt file in the repo.
+```
+pip install -r requirements.txt
+```
+This installs all required libraries (Flask, requests, etc.).
+
+5. Run the Project
+
+The repo has:
+```
+app.py
+app2.py
+```
+Start with:
+```
+python app.py
+```
+If that doesn’t work:
+```
+python app2.py
+```
+6. Open in Browser
+
+After running, you’ll see something like:
+```
+Running on http://127.0.0.1:5000/
+```
+Open this in your browser:
+```
+http://127.0.0.1:5000/
+```
+
 **How to Use:**
 
 Get Real-Time Weather Updates:
